@@ -1,0 +1,72 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #0C2B2A;
+     display: flex;
+    justify-content: center; 
+    align-items: center; 
+    
+}
+
+.container {
+    width: 520px;
+    height: 520px;
+    margin-top: 120px ;
+    /* background-color: aliceblue; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+}
+
+.box {
+    height: 70px;
+    width: 120px;
+     padding:12px; 
+     padding-top: 65px; 
+    text-align: center ; 
+    border-radius: 32px;
+    border: none;
+    box-shadow: 0 0 1rem rgb(32, 17, 17);
+    font-size: larger;
+    background-color: aliceblue;
+}
+h1
+{
+ 
+    position:absolute;
+    top: 1px;
+    left: 38%;
+}
+.btn_reset
+{
+    position:absolute;
+    bottom: 15px;
+    right: 500px;
+    background-color: #0C2B2A;
+    /* width: 220px; */
+    /* height: 35px; */
+    cursor: pointer;
+}
+.btn_new
+{
+    position: absolute;
+    bottom: 15px;
+    left: 495px;
+    background-color: #0C2B2A;
+    width: 160px;
+    cursor: pointer;
+}
+.winner
+{
+    position: absolute;
+    top: 55px;
+    width: 1123px;
+    text-align: center;
+    padding-top: 12px;
+    font-size: small;
+    color: thistle;
+    
+    /* border: 2px solid white; */
+
+}
